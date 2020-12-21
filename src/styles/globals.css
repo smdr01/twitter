@@ -57,6 +57,10 @@ button{
 
 }
 
+form h2{
+  color: wheat;
+}
+
 .navbar-main{
   height: 10vh;
   width: 100%;
@@ -89,11 +93,13 @@ button{
 .navbar-header{
   font-size: 40px;
   font-weight: 500;
+  color: wheat;
 }
 .navbar-text{
   font-size: 20px;
   font-weight: 200;
   border-bottom: 2px solid black;
+  color: wheat;
 }
 
 .home-main{
@@ -112,23 +118,21 @@ button{
 
 .login-main{
     width: 80%;
-    height: 65vh;
+    height: 80vh;
     background-color: #15202B;
 }
 .login-header{
   font-size: 30px;
   font-weight: 200;
   padding-left: 10%;
+  color: wheat;
 }
 .login-box{
   display: flex;
   flex-direction: column;
   width: 90%;
   height: 60%;
-  margin: 15% auto;
-}
-.input-header{
-  text-align: center;
+  margin: 3% auto;
 }
 .input-box{
   width: 100%;
@@ -145,6 +149,81 @@ button{
   height: 60%;
   margin: 3% auto;
 }
+
+.create-user-validation{
+  color: red;
+  text-transform: capitalize;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.dashboard{
+  display: flex;
+  height: 90vh;
+  width: 100vw;
+  background-color: #192734;
+}
+.dashboard-section{
+  border-top: 0.2px solid white;
+}
+.dashboard-first{
+  border-right: 1px solid white;
+  flex-grow: 1;
+}
+.dashboard-center{
+  border-right: 1px solid white;
+  flex-grow: 2;
+  display: flex;
+  flex-direction: column;
+}
+.dashboard-last{
+  flex-grow: 1;
+}
+
+.header-box{
+  height: 75px;
+  border-bottom: 0.5px solid white;
+  display: flex;
+  align-items: center;
+}
+.header-text{
+  margin-left: 30px;
+}
+
+.user-box{
+    height: 25vh;
+    border-bottom: 0.5px solid white;
+
+}
+
+.tweet-box{
+  height: 100%;
+  margin: 0px 30px;
+  display: flex;
+}
+
+.profile-box{
+  flex: 0 0 100px;
+  margin-top: 10px;
+}
+
+.profile-main{
+  background-color: red;
+}
+.tweet-main{
+  flex-grow: 2;
+  display: flex;
+  flex-direction: column;
+  
+}
+.tweet-header{
+}
+.tweet-body{
+}
+.tweet-footer{
+}
+
+
 
 
 
