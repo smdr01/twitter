@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic&display=swap');
+
+:root {/*
+  --text-color:
+  --text-color-secondary:
+
+  --primary-color:
+
+  --background-color:
+  --background-color-dark:
+  --background-color-light:
+*/
+  --font-family: 'Andika New Basic', sans-serif;
+  /*--box-shadow:*/ 
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-family);
+  background-color: white;
+  color:black
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  color: inherit;
+  font: inherit
+}
+
+
+
+
+
+form h2{
+  color: wheat;
+}
+
+.navbar-main{
+  height: 10vh;
+  width: 100%;
+  background-color: #192734;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar-content-body{
+  display: flex; 
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.navbar-content-1{
+  flex: 0 0 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+}
+.navbar-content{
+  flex: 1 1 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-header{
+  font-size: 40px;
+  font-weight: 500;
+  color: wheat;
+}
+.navbar-text{
+  font-size: 20px;
+  font-weight: 200;
+  border-bottom: 2px solid black;
+  color: wheat;
+}
+
+.home-main{
+  height: 90vh;
+  top: 10vh;
+  width: 100%;
+  display: flex;
+}
+.home-component{
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-main{
+    width: 80%;
+    height: 80vh;
+    background-color: #15202B;
+}
+.login-header{
+  font-size: 30px;
+  font-weight: 200;
+  padding-left: 10%;
+  color: wheat;
+}
+.login-box{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 60%;
+  margin: 3% auto;
+}
+.input-box{
+  width: 100%;
+  outline: none;
+}
+.login-button-box{
+  padding-top: 20px;
+}
+.btn-1{
+  
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #1A91DA;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  margin-top: 1rem;
+
+
+}
+
+.create-user-box{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 60%;
+  margin: 3% auto;
+}
+
+.create-user-validation{
+  color: red;
+  text-transform: capitalize;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.dashboard{
+  display: flex;
+  height: 90vh;
+  width: 100vw;
+  background-color: #192734;
+}
+.dashboard-section{
+  border-top: 0.2px solid white;
+}
+.dashboard-first{
+  border-right: 1px solid white;
+  flex-grow: 1;
+}
+.dashboard-center{
+  border-right: 1px solid white;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+.dashboard-last{
+  flex-grow: 1;
+}
+
+.header-box{
+  height: 75px;
+  border-bottom: 0.5px solid white;
+  display: flex;
+  align-items: center;
+}
+.header-text{
+  margin-left: 30px;
+}
+.filler-box{
+  height: 20px;
+  border-bottom: 0.5px solid white;
+}
+
+.user-box{
+    height: 25vh;
+    border-bottom: 0.5px solid white;
+
+}
+.feed-box{
+  flex-grow: 1;
+}
+
+.tweet-box{
+  height: 100%;
+  margin: 0px 30px;
+  display: flex;
+  justify-content: center;
+}
+.view-tweet-box{
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  border-bottom: 0.5px solid white;
+}
+
+.profile-box{
+  flex: 0 0 100px;
+  margin-top: 10px;
+}
+
+.profile-main{
+  background-color: red;
+}
+.tweet-main{
+  display: flex;
+  flex-grow: 2;
+  flex-direction: column;
+  
+}
+.tweet-header{
+  flex-grow: 1;
+}
+.tweet-text-header{
+  margin: 5px 0 0 0;
+  text-align: center;
+}
+.tweet-body{
+  flex-grow: 5;
+}
+.tweet-footer{
+  flex-grow: 2;
+}
+.tweet-form{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+.form__field {
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid gray;
+  outline: 0;
+  font-size: 1.3rem;
+  color: white;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+.tweet-input{
+  width: 100%;
+  height: 50px;
+}
+
+.btn-tweet{
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #1A91DA;
+  width: 100px;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  margin-top: 1rem;
+  border-radius: 100px;
+}
+
+
+
+
+
