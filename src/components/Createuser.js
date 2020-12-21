@@ -39,7 +39,7 @@ const Createuser = () => {
                     <input type="password" ref={register} name="confirmPassword" className="input-box"></input>
                 </div>
                 <div className="login-button-box">
-                    <button type="submit">Create User</button>
+                    <button className="btn-1" type="submit">Create User</button>
                 </div>
                 </form>
                 {noMatchPassword && <h2 className="create-user-validation">Passwords do not match</h2>}

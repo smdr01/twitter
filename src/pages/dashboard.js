@@ -1,4 +1,5 @@
 import Tweet from '../components/tweet'
+import FeedItems from '../components/FeedItems'
 
 const Dashboard = () =>{
 
@@ -11,6 +12,10 @@ const Dashboard = () =>{
                 </div>
                 <div className="user-box">
                     <Tweet/>
+                </div>
+                <div className="filler-box"/>
+                <div className="feed-box">
+                    <FeedItems/>
                 </div>
             </div>
             <div className="dashboard-section dashboard-last"></div>

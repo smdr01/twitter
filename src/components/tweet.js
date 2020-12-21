@@ -1,24 +1,23 @@
+import {useForm} from "react-hook-form";
 const Tweet = () => {
+    const {register, handleSubmit} = useForm()
+    const submitTweet = (event) =>{
 
+        console.log(event)
+    } 
     return(
         <div className="tweet-box">
-            <div className="profile-box">
-                <img src="profile.svg"></img>
-            </div>
             <div className="tweet-main">
                 <div className="tweet-header">
-                    TWEET SOMETHING
                 </div>
-                <form>
                 <div className="tweet-body">
-                    
-                        <input type="text"></input>
-                   
+                   <form className="tweet-form" onSubmit={handleSubmit(submitTweet)}>
+                       <input ref={register} className="tweet-input form__field" type="text"
+                       placeholder="What's happening" maxLength="10" name="tweet" autoComplete="off" required 
+                       />
+                       <button className="btn-tweet" type="submit">Tweet</button>
+                   </form>
                 </div>
-                <div className="tweet-footer">
-                    HELPME
-                </div>
-                </form>
                 
                 
             </div>

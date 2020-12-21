@@ -34,28 +34,9 @@ a {
   font: inherit
 }
 
-input[type=text]:focus {
-  border:2px solid #1A91DA;
-}
-
-button{
-  
-  font-family: "Roboto", sans-serif;
-  text-transform: uppercase;
-  outline: 0;
-  background: #1A91DA;
-  width: 100%;
-  border: 0;
-  padding: 15px;
-  color: #FFFFFF;
-  font-size: 14px;
-  -webkit-transition: all 0.3 ease;
-  transition: all 0.3 ease;
-  cursor: pointer;
-  margin-top: 1rem;
 
 
-}
+
 
 form h2{
   color: wheat;
@@ -141,6 +122,24 @@ form h2{
 .login-button-box{
   padding-top: 20px;
 }
+.btn-1{
+  
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #1A91DA;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  margin-top: 1rem;
+
+
+}
 
 .create-user-box{
   display: flex;
@@ -172,7 +171,7 @@ form h2{
 }
 .dashboard-center{
   border-right: 1px solid white;
-  flex-grow: 2;
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
 }
@@ -189,17 +188,31 @@ form h2{
 .header-text{
   margin-left: 30px;
 }
+.filler-box{
+  height: 20px;
+  border-bottom: 0.5px solid white;
+}
 
 .user-box{
     height: 25vh;
     border-bottom: 0.5px solid white;
 
 }
+.feed-box{
+  flex-grow: 1;
+}
 
 .tweet-box{
   height: 100%;
   margin: 0px 30px;
   display: flex;
+  justify-content: center;
+}
+.view-tweet-box{
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  border-bottom: 0.5px solid white;
 }
 
 .profile-box{
@@ -211,16 +224,65 @@ form h2{
   background-color: red;
 }
 .tweet-main{
-  flex-grow: 2;
   display: flex;
+  flex-grow: 2;
   flex-direction: column;
   
 }
 .tweet-header{
+  flex-grow: 1;
+}
+.tweet-text-header{
+  margin: 5px 0 0 0;
+  text-align: center;
 }
 .tweet-body{
+  flex-grow: 5;
 }
 .tweet-footer{
+  flex-grow: 2;
+}
+.tweet-form{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+.form__field {
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid gray;
+  outline: 0;
+  font-size: 1.3rem;
+  color: white;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+.tweet-input{
+  width: 100%;
+  height: 50px;
+}
+
+.btn-tweet{
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #1A91DA;
+  width: 100px;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  margin-top: 1rem;
+  border-radius: 100px;
 }
 
 

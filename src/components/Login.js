@@ -23,7 +23,7 @@ const Login = (props) => {
                     <input type="password" ref={register} name="password" className="input-box"></input>
                 </div>
                 <div className="login-button-box">
-                    <button type="submit">Login</button>
+                    <button className="btn-1" type="submit">Login</button>
                 </div>
                 </form>
                 {incorrectCredential && <h2 className="create-user-validation">Incorrect Cred</h2>}
