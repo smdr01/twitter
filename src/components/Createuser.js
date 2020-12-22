@@ -42,7 +42,7 @@ const Createuser = () => {
                     <button className="btn-1" type="submit">Create User</button>
                 </div>
                 </form>
-                {noMatchPassword && <h2 className="create-user-validation">Passwords do not match</h2>}
+                {!noMatchPassword && <h2 className="create-user-validation">Passwords do not match</h2>}
                 {userExits && <h2 className="create-user-validation">username already exists</h2>}
             </div>
             </div>

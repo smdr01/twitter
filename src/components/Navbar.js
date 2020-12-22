@@ -18,7 +18,9 @@ const Navbar = () => {
                     </Link>
                 </div>
                 <div className="navbar-content">
-                    <h2 className="navbar-text">Log off</h2>
+                    <div className="avatar-wrapper">
+	                    <img className="profile-pic" src="/goat.jpg" />
+                    </div>
                 </div>
             </div>
         </div>

@@ -14,9 +14,7 @@ const Dashboard = () =>{
                     <Tweet/>
                 </div>
                 <div className="filler-box"/>
-                <div className="feed-box">
-                    <FeedItems/>
-                </div>
+                <FeedItems/>
             </div>
             <div className="dashboard-section dashboard-last"></div>
         </div>
